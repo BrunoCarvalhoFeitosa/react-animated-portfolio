@@ -33,11 +33,6 @@ const serviceData = [
         title: "Suporte Vtex",
         description: "Suporte e manutenção de lojas desenvolvidas na plataforma VTEX.",
     },
-    {
-        icon: <SiVtex />,
-        title: "Suporte Vtex",
-        description: "Trabalho no suporte e manutenção de lojas VTEX.",
-    },
 ]
 
 const Services = () => {
