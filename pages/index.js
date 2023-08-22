@@ -12,7 +12,7 @@ const Home = () => {
                     <div className="relative z-50">
                         <motion.h1
                             className="h1"
-                            variants={fadeIn('down', 0.8)}
+                            variants={fadeIn("down", 0.8)}
                             initial="hidden"
                             animate="show"
                             exit="hidden"
@@ -21,7 +21,7 @@ const Home = () => {
                             <span className="text-accent">Em realidade digital</span>
                         </motion.h1>
                         <motion.p
-                            variants={fadeIn('down', 1)}
+                            variants={fadeIn("down", 1)}
                             initial="hidden"
                             animate="show"
                             exit="hidden"
@@ -33,7 +33,7 @@ const Home = () => {
                             Segredos de Salão, Greenpeace, Drogaria Araújo e Avon.
                         </motion.p>
                         <motion.div
-                            variants={fadeIn('down', 1.2)}
+                            variants={fadeIn("down", 1.2)}
                             initial="hidden"
                             animate="show"
                             exit="hidden"
@@ -55,7 +55,7 @@ const Home = () => {
                 <div className="opacity-30 lg:opacity-100">
                     <motion.div
                         className="w-full md:h-full max-w-[737px] max-h-[670px] lg:absolute lg:bottom-0 lg:right-[0] sm:opacity-25"
-                        variants={fadeIn('up', 0.5)}
+                        variants={fadeIn("up", 0.5)}
                         initial="hidden"
                         animate="show"
                         exit="hidden"

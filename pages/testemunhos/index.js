@@ -27,7 +27,7 @@ const Testimonials = () => {
                         <div className="flex justify-center lg:justify-normal items-baseline gap-x-4">
                             <motion.h2
                                 className="h2 text-center lg:text-left"
-                                variants={fadeIn('down', 0.8)}
+                                variants={fadeIn("down", 0.8)}
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
@@ -35,7 +35,7 @@ const Testimonials = () => {
                                 Testemunhos
                             </motion.h2>
                             <motion.div
-                                variants={fadeIn('down', 1)}
+                                variants={fadeIn("down", 1)}
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
@@ -43,7 +43,7 @@ const Testimonials = () => {
                             />
                         </div>
                         <motion.p
-                            variants={fadeIn('down', 1)}
+                            variants={fadeIn("down", 1)}
                             initial="hidden"
                             animate="show"
                             exit="hidden"
@@ -56,7 +56,7 @@ const Testimonials = () => {
                     <div className="w-full md:w-[56%]">
                         <motion.div
                             className="flex-1 mt-6 lg:pr-[80px]"
-                            variants={fadeIn('down', 1)}
+                            variants={fadeIn("down", 1)}
                             initial="hidden"
                             animate="show"
                             exit="hidden"

@@ -23,69 +23,73 @@ import {
 
 const aboutData = [
     {
-        title: 'Habilidades',
+        title: "Habilidades",
         info: [
             {
-                title: 'Desenvolvimento Web',
+                title: "Desenvolvimento Web",
                 icons: [
-                    <FaHtml5 />,
-                    <FaCss3 />,
-                    <FaSass />,
-                    <FaJs />,
-                    <SiJquery />,
-                    <FaReact />,
-                    <SiNextdotjs />,
-                    <SiGatsby />,
-                    <SiGraphql />,
+                    <FaHtml5 key="html" />,
+                    <FaCss3 key="css" />,
+                    <FaSass key="scss" />,
+                    <FaJs key="javascript" />,
+                    <SiJquery key="jquery" />,
+                    <FaReact key="react.js" />,
+                    <SiNextdotjs key="next.js" />,
+                    <SiGatsby key="gatsby" />,
+                    <SiGraphql key="graphql" />,
                 ],
             },
             {
                 title: "Plataformas",
                 icons: [
-                    <SiVtex />,
+                    <SiVtex key="vtex" />,
                 ],
             },
             {
-                title: 'UI/UX Design',
-                icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+                title: "UI/UX Design",
+                icons: [
+                    <FaFigma key="figma" />,
+                    <SiAdobexd key="adobexd" />,
+                    <SiAdobephotoshop key="photoshop" />
+                ],
             },
         ],
     },
     {
-        title: 'Experiência',
+        title: "Experiência",
         info: [
             {
-                title: 'Desenvolvedor Front-End Sênior',
-                stage: 'Novembro 2021 - Agosto 2023',
+                title: "Desenvolvedor Front-End Sênior",
+                stage: "Novembro 2021 - Agosto 2023",
             },
             {
-                title: 'Desenvolvedor Front-End Pleno II',
-                stage: 'Julho 2021 - Novembro 2021',
+                title: "Desenvolvedor Front-End Pleno II",
+                stage: "Julho 2021 - Novembro 2021",
             },
             {
-                title: 'Desenvolvedor Front-End Júnior II',
-                stage: 'Dezembro 2020 - Julho 2021',
+                title: "Desenvolvedor Front-End Júnior II",
+                stage: "Dezembro 2020 - Julho 2021",
             },
             {
-                title: 'Desenvolvedor Front-End Júnior',
-                stage: 'Junho 2019 - Dezembro 2020',
+                title: "Desenvolvedor Front-End Júnior",
+                stage: "Junho 2019 - Dezembro 2020",
             },
         ],
     },
     {
-        title: 'Certificações',
+        title: "Certificações",
         info: [
             {
-                title: 'Audience Dials - Mercado Ads',
-                stage: '2022',
+                title: "Audience Dials - Mercado Ads",
+                stage: "2022",
             },
             {
-                title: 'Brand Building - Mercado Ads',
-                stage: '2022',
+                title: "Brand Building - Mercado Ads",
+                stage: "2022",
             },
             {
-                title: 'Advanced VTEX Implementation Certification (Enterprise)',
-                stage: '2021',
+                title: "Advanced VTEX Implementation Certification (Enterprise)",
+                stage: "2021",
             },
         ],
     },
@@ -114,7 +118,7 @@ const About = () => {
                         <div className="flex justify-center lg:justify-normal items-baseline gap-x-4">
                             <motion.h2
                                 className="h2 text-center lg:text-left"
-                                variants={fadeIn('down', 0.8)}
+                                variants={fadeIn("down", 0.8)}
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
@@ -122,7 +126,7 @@ const About = () => {
                                 Minha história
                             </motion.h2>
                             <motion.div
-                                variants={fadeIn('down', 1)}
+                                variants={fadeIn("down", 1)}
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
@@ -130,7 +134,7 @@ const About = () => {
                             />
                         </div>
                         <motion.p
-                            variants={fadeIn('down', 1)}
+                            variants={fadeIn("down", 1)}
                             initial="hidden"
                             animate="show"
                             exit="hidden"
@@ -143,7 +147,7 @@ const About = () => {
                     </div>
                     <motion.div
                         className="flex-1 flex flex-col w-full mt-12"
-                        variants={fadeIn('down', 1)}
+                        variants={fadeIn("down", 1)}
                         initial="hidden"
                         animate="show"
                         exit="hidden"

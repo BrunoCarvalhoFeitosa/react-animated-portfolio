@@ -2,7 +2,7 @@ import Layout from "../components/Layout"
 import { useRouter } from "next/router"
 import { AnimatePresence, motion } from "framer-motion"
 import Transition from "../components/Transition"
-import "react-toastify/dist/ReactToastify.css"
+import 'react-toastify/dist/ReactToastify.css'
 import "../styles/globals.css"
 
 const  App = ({ Component, pageProps }) => {

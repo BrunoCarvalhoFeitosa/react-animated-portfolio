@@ -21,12 +21,12 @@ const schema = yup.object({
     user_email:
       yup
         .string()
-        .email('Por favor, insira um e-mail válido.')
+        .email("Por favor, insira um e-mail válido.")
         .required("O campo e-mail é obrigatório."),
     user_phone:
       yup
         .string()
-        .min(14,'Por favor, insira um número telefônico válido.')
+        .min(14,"Por favor, insira um número telefônico válido.")
         .max(15, "Por favor, insira um número telefônico válido.")
         .required("O campo número telefônico é obrigatório."),
     user_message:
@@ -54,7 +54,7 @@ const Contact = (ev) => {
         try {
           await emailjs.sendForm(serviceId, templateId, formRef.current, apiKey)
     
-          toast.success('Mensagem enviada com sucesso, em breve entraremos em contato.', {
+          toast.success("Mensagem enviada com sucesso, em breve entraremos em contato.", {
             position: "bottom-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -67,7 +67,7 @@ const Contact = (ev) => {
     
           reset()
         } catch (error) {
-          toast.error('Houve um erro ao enviar sua mensagem, tente novamente.', {
+          toast.error("Houve um erro ao enviar sua mensagem, tente novamente.", {
             position: "bottom-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -101,7 +101,7 @@ const Contact = (ev) => {
                         <div className="flex justify-center lg:justify-normal items-baseline gap-x-4">
                             <motion.h2
                                 className="h2 text-center lg:text-left"
-                                variants={fadeIn('down', 0.8)}
+                                variants={fadeIn("down", 0.8)}
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
@@ -109,7 +109,7 @@ const Contact = (ev) => {
                                 Contato
                             </motion.h2>
                             <motion.div
-                                variants={fadeIn('down', 1)}
+                                variants={fadeIn("down", 1)}
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
@@ -117,7 +117,7 @@ const Contact = (ev) => {
                             />
                         </div>
                         <motion.p
-                            variants={fadeIn('down', 1)}
+                            variants={fadeIn("down", 1)}
                             initial="hidden"
                             animate="show"
                             exit="hidden"
@@ -130,7 +130,7 @@ const Contact = (ev) => {
                     </div>
                     <motion.div
                         className="flex-1 flex flex-col w-full mt-12"
-                        variants={fadeIn('down', 1)}
+                        variants={fadeIn("down", 1)}
                         initial="hidden"
                         animate="show"
                         exit="hidden"

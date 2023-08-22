@@ -10,33 +10,33 @@ import { RiSeoLine } from "react-icons/ri"
 const serviceData = [
     {
         icon: <RxCrop />,
-        title: 'Branding',
-        description: 'Idealização de marca, logotipos, ideias e valores para seu negócio.',
+        title: "Branding",
+        description: "Idealização de marca, logotipos, ideias e valores para seu negócio.",
     },
     {
         icon: <RxPencil2 />,
-        title: 'Design',
-        description: 'Criação de layouts utilizando Photoshop, XD e Figma.',
+        title: "Design",
+        description: "Criação de layouts utilizando Photoshop, XD e Figma.",
     },
     {
         icon: <RiSeoLine />,
-        title: 'SEO',
-        description: 'Rankeamento e melhora das buscas do seu site no Google',
+        title: "SEO",
+        description: "Rankeamento e melhora das buscas do seu site no Google",
     },
     {
         icon: <RxDesktop />,
-        title: 'Desenvolvimento',
-        description: 'Desenvolvimento de sites e aplicativos para celular Android e IOS.',
+        title: "Desenvolvimento",
+        description: "Desenvolvimento de sites e aplicativos para celular Android e IOS.",
     },
     {
         icon: <SiVtex />,
-        title: 'Suporte Vtex',
-        description: 'Suporte e manutenção de lojas desenvolvidas na plataforma VTEX.',
+        title: "Suporte Vtex",
+        description: "Suporte e manutenção de lojas desenvolvidas na plataforma VTEX.",
     },
     {
         icon: <SiVtex />,
-        title: 'Suporte Vtex',
-        description: 'Trabalho no suporte e manutenção de lojas VTEX.',
+        title: "Suporte Vtex",
+        description: "Trabalho no suporte e manutenção de lojas VTEX.",
     },
 ]
 
@@ -61,7 +61,7 @@ const Services = () => {
                         <div className="flex justify-center lg:justify-normal items-baseline gap-x-4">
                             <motion.h2
                                 className="h2 text-center lg:text-left"
-                                variants={fadeIn('down', 0.8)}
+                                variants={fadeIn("down", 0.8)}
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
@@ -69,7 +69,7 @@ const Services = () => {
                                 Serviços
                             </motion.h2>
                             <motion.div
-                                variants={fadeIn('down', 1)}
+                                variants={fadeIn("down", 1)}
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
@@ -77,7 +77,7 @@ const Services = () => {
                             />
                         </div>
                         <motion.p
-                            variants={fadeIn('down', 1)}
+                            variants={fadeIn("down", 1)}
                             initial="hidden"
                             animate="show"
                             exit="hidden"
@@ -90,7 +90,7 @@ const Services = () => {
                     </div>
                     <motion.div
                         className="flex-1 mt-6 lg:pr-[80px]"
-                        variants={fadeIn('down', 1)}
+                        variants={fadeIn("down", 1)}
                         initial="hidden"
                         animate="show"
                         exit="hidden"
