@@ -99,7 +99,7 @@ const About = () => {
     const [index, setIndex] = useState(0)
 
     return (
-        <div className="h-full py-32 lg:py-0 bg-primary/30 text-center lg:text-left">
+        <div className="h-[100vh] md:h-full py-32 lg:py-0 bg-primary/30 text-center lg:text-left">
             <Circles />
             <div className="opacity-100 lg:opacity-80">
                 <motion.div

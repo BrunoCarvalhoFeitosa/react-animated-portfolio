@@ -81,7 +81,7 @@ const Contact = (ev) => {
       }
 
     return (
-        <div className="h-full py-32 lg:py-0 bg-primary/30   lg:text-left">
+        <div className="h-full py-32 lg:py-0 bg-primary/30 lg:text-left">
             <ToastContainer />
             <Circles />
             <div className="opacity-100 lg:opacity-80">
@@ -135,7 +135,7 @@ const Contact = (ev) => {
                         animate="show"
                         exit="hidden"
                     >
-                        <div className="relative lg:right-10">
+                        <div className="relative lg:right-10 pb-12 md:pb-0">
                             <form
                                 ref={formRef}
                                 onSubmit={handleSubmit(onSubmit)}

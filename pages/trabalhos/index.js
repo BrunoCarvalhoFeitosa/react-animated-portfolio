@@ -8,7 +8,7 @@ import WorkSlider from "../../components/WorkSlider"
 
 const Work = () => {
     return (
-        <div className="h-full py-32 lg:py-0 bg-primary/30 text-center lg:text-left">
+        <div className="h-[100vh] py-32 lg:py-0 bg-primary/30 text-center lg:text-left">
             <Circles />
             <div className="opacity-100 lg:opacity-80">
                 <motion.div
@@ -55,7 +55,7 @@ const Work = () => {
                     </div>
                     <div className="w-full md:w-[56%]">
                         <motion.div
-                            className="flex-1 mt-6 lg:pr-[80px]"
+                            className="flex-1 mt-12 lg:mt-0 lg:pr-[80px]"
                             variants={fadeIn("down", 1)}
                             initial="hidden"
                             animate="show"
