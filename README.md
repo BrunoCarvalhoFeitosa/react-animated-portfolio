@@ -50,7 +50,7 @@ https://github.com/BrunoCarvalhoFeitosa/react-animated-portfolio/assets/46093815
 
 ### Hospedagem
 
-O site está em produção neste link: (https://bruno-carvalho-feitosa-animated-portfolio-a7m287taj.vercel.app).
+O site está em produção neste link: (bruno-carvalho-feitosa-animated-portfolio.vercel.app).
 
 <!-- GETTING STARTED -->
 ## Iniciando o projeto
