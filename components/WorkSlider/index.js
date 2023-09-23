@@ -44,7 +44,7 @@ const workSlides = [
     path: "https://www.winebrands.com.br",
   },
   {
-    title: "The North face",
+    title: "The North Face",
     path: "www.thenorthface.com.br",
   },
 ]
