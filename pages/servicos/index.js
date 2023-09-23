@@ -37,9 +37,9 @@ const serviceData = [
 
 const Services = () => {
     return (
-        <div className="h-full py-32 lg:py-0 bg-primary/30 text-center lg:text-left">
+        <div className="h-full md:h-[100vh] py-32 xl:py-0 bg-primary/30 text-center xl:text-left">
             <Circles />
-            <div className="opacity-100 lg:opacity-80">
+            <div className="opacity-100 xl:opacity-80">
                 <motion.div
                     className="hidden xl:flex absolute bottom-0 -left-[320px]"
                     variants={fadeIn("right", 1.3)}
@@ -51,11 +51,11 @@ const Services = () => {
                 </motion.div>
             </div>
             <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-16">
-                <div className="flex flex-col lg:flex-row items-baseline gap-x-24">
-                    <div className="relative flex-1 lg:flex-none lg:w-[33%] flex flex-col justify-center lg:h-[100vh] z-10">
-                        <div className="flex justify-center lg:justify-normal items-baseline gap-x-4">
+                <div className="flex flex-col xl:flex-row items-baseline gap-x-24">
+                    <div className="relative flex-1 xl:flex-none xl:w-[33%] flex flex-col justify-center xl:h-[100vh] z-10">
+                        <div className="flex justify-center xl:justify-normal items-baseline gap-x-4">
                             <motion.h2
-                                className="h2 text-center lg:text-left"
+                                className="h2 text-center xl:text-left"
                                 variants={fadeIn("down", 0.8)}
                                 initial="hidden"
                                 animate="show"
@@ -84,17 +84,17 @@ const Services = () => {
                         </motion.p>
                     </div>
                     <motion.div
-                        className="flex-1 mt-6 lg:pr-[80px]"
+                        className="flex-1 mt-6 xl:pr-[80px]"
                         variants={fadeIn("down", 1)}
                         initial="hidden"
                         animate="show"
                         exit="hidden"
                     >
-                        <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-2">
+                        <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-2">
                             {serviceData.map((item, index) => (
                                 <div key={index} className="bg-red-200/20 p-4">
                                     <div className="flex flex-col justify-center items-center md:min-h-[120px]">
-                                        <div className="flex justify-center items-center gap-x-3 lg:mb-2">
+                                        <div className="flex justify-center items-center gap-x-3 xl:mb-2">
                                             <h3>
                                                 {item.title}
                                             </h3>

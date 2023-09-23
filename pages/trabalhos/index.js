@@ -53,7 +53,7 @@ const Work = () => {
                             prestava suporte ao e-commerce dessas marcas.
                         </motion.p>
                     </div>
-                    <div className="w-full md:w-[56%]">
+                    <div className="w-full xl:w-[56%]">
                         <motion.div
                             className="flex-1 mt-12 lg:mt-0 lg:pr-[80px]"
                             variants={fadeIn("down", 1)}

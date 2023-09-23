@@ -81,10 +81,10 @@ const Contact = (ev) => {
       }
 
     return (
-        <div className="h-full md:h-[100vh] py-32 lg:py-0 bg-primary/30 lg:text-left">
+        <div className="h-full md:h-[100vh] py-32 xl:py-0 bg-primary/30 xl:text-left">
             <ToastContainer />
             <Circles />
-            <div className="opacity-100 lg:opacity-80">
+            <div className="opacity-100 xl:opacity-80">
                 <motion.div
                     className="hidden xl:flex absolute bottom-0 -left-[320px]"
                     variants={fadeIn("right", 1.3)}
@@ -96,11 +96,11 @@ const Contact = (ev) => {
                 </motion.div>
             </div>
             <div className="w-[85%] mx-auto h-full flex flex-col items-center xl:flex-row gap-x-16">
-                <div className="flex flex-col lg:flex-row items-center gap-x-24">
-                    <div className="relative flex-1 flex flex-col justify-center lg:h-[100vh] z-10">
-                        <div className="flex justify-center lg:justify-normal items-baseline gap-x-4">
+                <div className="flex flex-col xl:flex-row items-center gap-x-24">
+                    <div className="relative flex-1 flex flex-col justify-center xl:h-[100vh] z-10">
+                        <div className="flex justify-center xl:justify-normal items-baseline gap-x-4">
                             <motion.h2
-                                className="h2 text-center lg:text-left"
+                                className="h2 text-center xl:text-left"
                                 variants={fadeIn("down", 0.8)}
                                 initial="hidden"
                                 animate="show"
@@ -121,7 +121,7 @@ const Contact = (ev) => {
                             initial="hidden"
                             animate="show"
                             exit="hidden"
-                            className="text-center lg:text-left"
+                            className="text-center xl:text-left"
                         >
                             Entre e contato comigo através deste formulário,
                             me diga qual a sua principal necessidade ou ideia.
@@ -135,7 +135,7 @@ const Contact = (ev) => {
                         animate="show"
                         exit="hidden"
                     >
-                        <div className="relative lg:right-10 pb-12 md:pb-0">
+                        <div className="relative xl:right-10 pb-12 md:pb-0">
                             <form
                                 ref={formRef}
                                 onSubmit={handleSubmit(onSubmit)}
@@ -177,7 +177,7 @@ const Contact = (ev) => {
                                 )}
                                 <div className="w-full flex">
                                     <textarea
-                                        className="textarea py-5 h-[140px] lg:h-[110px] resize-none"
+                                        className="textarea py-5 h-[140px] xl:h-[110px] resize-none"
                                         placeholder="Deixe sua mensagem ou uma possível dúvida"
                                         {...register("user_message")}
                                     />
