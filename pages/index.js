@@ -6,7 +6,7 @@ import Avatar from "../components/Avatar"
 
 const Home = () => {
     return (
-        <div className="h-full xl:h-[100vh] bg-primary/30">
+        <div className="h-full lg:h-[100vh] bg-primary/30">
             <div className="w-full h-[100vh] lg:h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
                 <div className="flex flex-col justify-center h-full container mx-auto py-32 text-center xl:text-left">
                     <div className="relative z-50">
