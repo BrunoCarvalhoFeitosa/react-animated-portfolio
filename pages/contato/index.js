@@ -81,7 +81,7 @@ const Contact = (ev) => {
       }
 
     return (
-        <div className="h-full py-32 lg:py-0 bg-primary/30 lg:text-left">
+        <div className="h-full md:h-[100vh] py-32 lg:py-0 bg-primary/30 lg:text-left">
             <ToastContainer />
             <Circles />
             <div className="opacity-100 lg:opacity-80">
